@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		C94DFB592B15F212002B74B6 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94DFB582B15F212002B74B6 /* main.swift */; };
+		C94DFB602B15F275002B74B6 /* SmartHomeDevices.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94DFB5F2B15F275002B74B6 /* SmartHomeDevices.swift */; };
+		C94DFB632B15F789002B74B6 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94DFB622B15F789002B74B6 /* Home.swift */; };
+		C94DFB652B15F79D002B74B6 /* Lighting.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94DFB642B15F79D002B74B6 /* Lighting.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		C94DFB552B15F212002B74B6 /* SmartHomeSystemApp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SmartHomeSystemApp; sourceTree = BUILT_PRODUCTS_DIR; };
 		C94DFB582B15F212002B74B6 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		C94DFB5F2B15F275002B74B6 /* SmartHomeDevices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartHomeDevices.swift; sourceTree = "<group>"; };
+		C94DFB622B15F789002B74B6 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		C94DFB642B15F79D002B74B6 /* Lighting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lighting.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				C94DFB582B15F212002B74B6 /* main.swift */,
+				C94DFB5F2B15F275002B74B6 /* SmartHomeDevices.swift */,
+				C94DFB622B15F789002B74B6 /* Home.swift */,
+				C94DFB642B15F79D002B74B6 /* Lighting.swift */,
 			);
 			path = SmartHomeSystemApp;
 			sourceTree = "<group>";
@@ -120,7 +129,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C94DFB602B15F275002B74B6 /* SmartHomeDevices.swift in Sources */,
+				C94DFB632B15F789002B74B6 /* Home.swift in Sources */,
 				C94DFB592B15F212002B74B6 /* main.swift in Sources */,
+				C94DFB652B15F79D002B74B6 /* Lighting.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
